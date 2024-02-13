@@ -6,7 +6,7 @@
 
         {{-- isi --}}
         <div class="pt-24">
-            <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 @include('admin.penjualan._cardSemuaT')
                 @if (request('kecamatan') !== null)
                 @include('admin.penjualan._cardKec')

@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('splide/dist/css/splide.min.css') }}">
+    <link rel="icon" href="{{ asset('DefaultImage/o.png') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
     @stack('style')
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <title>Hartono Travel</title>
+    <title>Qomaruddin</title>
 </head>
 
 <body>

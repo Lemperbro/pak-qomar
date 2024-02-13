@@ -8,8 +8,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <!-- Untuk Datepicker Biasa -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="icon" href="{{ asset('DefaultImage/o.png') }}">
     
-    <title>Document</title>
+    <title>Qomaruddin</title>
 </head>
 
 <body class="bg-main">
